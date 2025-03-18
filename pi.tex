@@ -42,16 +42,16 @@
 				\item Inscreva um círculo de raio \(r\) (área \(\pi r^2\)) dentro de um quadrado de lado \(2r\) (área \(4r^2\)).
 				\item A razão entre a área do círculo e a do quadrado é: 
 				\[
-				\frac{\pi r^2}{4r^2} = \frac{\pi}{4}
+				\frac{\pi r^2}{4r^2} = \frac{\pi}{4};
 				\]
 				\item Gerando aleatoriamente \(N\) pontos dentro do quadrado, aproximadamente:  
 				\[
-				N \times \frac{\pi}{4}
+				N \times \frac{\pi}{4};
 				\]
 				desses pontos (\(M\)) devem cair dentro do círculo.
-				\item Assim, \(\pi\) pode ser aproximado por:
+				\item Assim, \(\pi\) pode ser aproximado por $N \times \frac{\pi}{4} = M$, então
 				\[
-				N \times \frac{\pi}{4} = M \Rightarrow \pi = 4 \times \frac{M}{N}
+				 \pi = 4 \times \frac{M}{N};
 				\]
 				\item Quanto maior o número de pontos gerados, melhor a aproximação.
 			\end{itemize}
@@ -103,7 +103,7 @@
 			\footnotesize
 			\textbf{Extensão para Paralelismo:}
 			\begin{itemize}
-				\item A contagem de pontos (loop) é dividida entre os \textit{workers}, cada um processando uma parte da tarefa.
+				\item A contagem de $N$  pontos  é dividida entre os $n$ \textit{workers}, cada um processando uma parte da tarefa: $N/n$ pontos .
 				\item Cada \textit{worker} calcula quantos pontos caem no círculo dentro do seu subconjunto.
 				\item O \textit{master} recebe os resultados de todos os \textit{workers} e computa \(\pi\).
 			\end{itemize}
@@ -163,11 +163,10 @@
 	%-------------------------------------------
 	\begin{frame}{Paralelização em Algoritmos Dependentes do Tempo}
 		
-		Muitas vezes, é possível reestruturar um algoritmo dependente do tempo de forma que a paralelização seja viável.
+		Muitas vezes, um algoritmo dependente do tempo  pode ser "\emph{paralelizado}".
 		
 		\vspace{0.2cm}
-		\textbf{Exemplo: cálculo dos primeiros 10.000 termos da sequência de Fibonacci}  
-		(0,1,1,2,3,5,8,13,21,...) usando a fórmula:
+		 Sequência de Fibonacci (0,1,1,2,3,5,8,13,21,...),  usando a fórmula:
 		
 		\[
 		F(n) = F(n-1) + F(n-2)
@@ -183,6 +182,7 @@
 	\end{frame}
 	
 	\begin{frame}{High Performance Computing(HPC)}
+		
 		\scriptsize
 		O cálculo paralelo está vivendo um momento de destaque com as últimas gerações de Graphic Processing Units (GPUs): uma capacidade de cálculo surpreendente no momento em que a Lei de Moore está chegando ao fim.
 		
