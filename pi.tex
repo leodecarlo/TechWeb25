@@ -104,7 +104,7 @@
 			\footnotesize
 			\textbf{Extensão para Paralelismo:}
 			\begin{itemize}
-				\item A contagem de $N$  pontos  é dividida entre os $n$ \textit{workers}, cada um processando uma parte da tarefa: $N/n$ pontos .
+				\item A contagem de $N$  pontos  é dividida entre os $n$ \textit{workers}(unidades computacionais), cada um processando uma parte da tarefa: $N/n$ pontos .
 				\item Cada \textit{worker} calcula quantos pontos caem no círculo dentro do seu subconjunto.
 				\item O \textit{master} recebe os resultados de todos os \textit{workers} e computa \(\pi\).
 			\end{itemize}
@@ -164,7 +164,7 @@
 	%-------------------------------------------
 	\begin{frame}{Paralelização em Algoritmos Dependentes do Tempo}
 		
-		Muitas vezes, um algoritmo dependente do tempo  pode ser "\emph{paralelizado}".
+		Muitas vezes, um algoritmo dependente da passos anteriores pode ser "\emph{paralelizado}".
 		
 		\vspace{0.2cm}
 		 Sequência de Fibonacci (0,1,1,2,3,5,8,13,21,...),  usando a fórmula:
@@ -201,8 +201,8 @@
 		
 		\vspace{0.3cm}
 		
-		Aliado à datastorage com I/O de alto desempenho: massivo investimento da União Europeia (UE) em centros de HPC, \textcolor{blue}{\emph{\href{https://eurohpc-ju.europa.eu/index_en}{EuroHPC}}}
-		(Resta provar que não estamos so enriquecendo os americanos: devido ao intenso I/O das GPUs, as vantagens dos clusters de GPUs(respeito CPUs) precisam ser demonstradas na maioria das situações (e.g. em simulações físicas)).
+		Suceso graças a  conjunta  chegada de performante  I/O  datastorage:  massivo investimento da União Europeia (UE) em centros de HPC, \textcolor{blue}{\emph{\href{https://eurohpc-ju.europa.eu/index_en}{EuroHPC}}}
+		(Resta provar que não estamos so enriquecendo os americanos: devido ao intenso I/O das GPUs, as vantagens dos clusters de GPUs(respeito CPUs) precisam ser demonstradas na maioria das situações (e.g. em sssimulações físicas)).
 		
 		\vspace{0.3cm}
 		Essa nova tecnologia é a base para a explosão da popularização da inteligência artificial (AI). Outra aplicação de destaque é o uso de gêmeos digitais e simulações para a indústria.

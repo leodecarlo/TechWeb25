@@ -9,7 +9,7 @@ sudo apt install openmpi-bin libopenmpi-dev
 
 nproc or lscpu
 
-** Check current processes**
+**Check current processes**
 
 top or htop
 
