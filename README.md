@@ -1,6 +1,7 @@
 **Install MPI**
 
 sudo apt update
+
 sudo apt install openmpi-bin libopenmpi-dev
 
 
@@ -17,6 +18,7 @@ top or htop
 **Compile and run script.c**
 
 gcc  script.c -o script
+
 ./script
 
 
@@ -25,6 +27,7 @@ gcc  script.c -o script
 
 
 mpicc  script.c -o script
+
 mpirun -np 4 ./script
 
 
