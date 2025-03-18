@@ -4,40 +4,27 @@ sudo apt update
 sudo apt install openmpi-bin libopenmpi-dev
 
 
-**Compile Mpi**
-
-mpicc hello.c -o hello
-
 
 **Check number of cores available cpu**
 
-nproc
+nproc or lscpu
 
-or
-
-lscpu
+** Check current processes**
 
 top or htop
 
 
+**Compile and run script.c**
 
-**Run MPI**
-
-mpirun -np 4 ./hello
-
-
-
-**Compile and run pi.c**
-
-gcc  pi.c -o pi
-./pi
+gcc  script.c -o script
+./script
 
 
 
-**Compile and run parallel_pi.c**
+**Compile MPI and run script.c**
 
 
-mpicc -o parallel_pi parallel_pi.c
-mpirun -np 4 ./parallel_pi
+mpicc -o script script.c
+mpirun -np 4 ./script
 
 
