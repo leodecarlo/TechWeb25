@@ -24,7 +24,7 @@ gcc  script.c -o script
 **Compile MPI and run script.c**
 
 
-mpicc -o script script.c
+mpicc  script.c -o script
 mpirun -np 4 ./script
 
 
