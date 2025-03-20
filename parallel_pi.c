@@ -37,7 +37,18 @@ int main(int argc, char* argv[])
 
     // The master will collect the total count from all processes
     long global_count = 0;
-    // Use MPI_Reduce to sum up local_count into global_count on rank 0
+    /* Use MPI_Reduce to sum up local_count into global_count on rank 0: 
+    - each process has local variable 'local count' to be reduced;
+    - the value is sent to the master process for aggregation;
+    - the master receive the final reduced result in 'global_count';
+    - we are reducing a '1' single scalar data; 
+    - we declare the type of data 'MPI_LONG';
+    - we define the type of operation 'MPI_SUM' in the reduction;
+    - the process with 'rank 0' will collect the result;
+    - we specify the communicator 'MPI_COMM_WORLD', all processes that partecipate in the reduction;
+    
+    */
+
     MPI_Reduce(&local_count, &global_count, 1, MPI_LONG, MPI_SUM, 0, MPI_COMM_WORLD);
 
     // On rank 0, record the end time and compute pi, including the reduction time.
