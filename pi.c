@@ -4,7 +4,7 @@
 
 int main() {
     // Number of points to sample
-    int npoints = (int)1e3;  // Increase for better accuracy
+    int npoints = (int)1e9;  // Increase for better accuracy
     int circle_count = 0;
 
     // Seed the random number generator

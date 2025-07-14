@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     // Total number of points 
-    long npoints = (int)1e3;
+    long npoints = (int)1e9;
     // Compute how many points each process should handle
     long points_per_proc = npoints / size;
     // Local count of points inside the circle

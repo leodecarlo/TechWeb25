@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.9)  20 MAR 2025 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.9)  14 JUL 2025 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**pi.tex
-(./pi.tex
+**What_is_Parallel_Computing?.tex
+(./What_is_Parallel_Computing?.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -730,8 +730,8 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count338
 \l__pdf_internal_box=\box76
 )
-(./pi.aux)
-\openout1 = `pi.aux'.
+(./What_is_Parallel_Computing?.aux)
+\openout1 = `What_is_Parallel_Computing?.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -810,9 +810,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 24.
 
-(./pi.out) (./pi.out)
+(./What_is_Parallel_Computing?.out) (./What_is_Parallel_Computing?.out)
 \@outlinefile=\write5
-\openout5 = `pi.out'.
+\openout5 = `What_is_Parallel_Computing?.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 24.
@@ -895,14 +895,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./pi.nav) [1
+) (./What_is_Parallel_Computing?.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-t1.enc}]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
@@ -931,9 +930,9 @@ Overfull \hbox (15.59526pt too wide) in paragraph at lines 64--64
 [2
 
  <./circfig.png>]
-\openout4 = `pi.vrb'.
+\openout4 = `What_is_Parallel_Computing?.vrb'.
 
- (./pi.vrb
+ (./What_is_Parallel_Computing?.vrb
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
 .
 
@@ -974,9 +973,9 @@ Overfull \hbox (3.55048pt too wide) in paragraph at lines 122--122
 [4
 
  <./par_circfig.png>]
-\openout4 = `pi.vrb'.
+\openout4 = `What_is_Parallel_Computing?.vrb'.
 
- (./pi.vrb
+ (./What_is_Parallel_Computing?.vrb
 Overfull \hbox (2.73589pt too wide) in paragraph at lines 28--28
 []    \T1/cmtt/m/n/8 compute PI = 4.0*(total_circle_count)/npoints[] 
  []
@@ -1021,30 +1020,32 @@ Package pdftex.def Info: Moore_vs_GPU.png  used on input line 217.
 
  <./Nvidia.png> <./Moore_vs_GPU.png>]
 \tf@nav=\write6
-\openout6 = `pi.nav'.
+\openout6 = `What_is_Parallel_Computing?.nav'.
 
 \tf@toc=\write7
-\openout7 = `pi.toc'.
+\openout7 = `What_is_Parallel_Computing?.toc'.
 
 \tf@snm=\write8
-\openout8 = `pi.snm'.
+\openout8 = `What_is_Parallel_Computing?.snm'.
 
- (./pi.aux)
+
+(./What_is_Parallel_Computing?.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `pi.out' has not changed.
+Package rerunfilecheck Info: File `What_is_Parallel_Computing?.out' has not cha
+nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22978 strings out of 474222
- 441566 string characters out of 5748734
+ 22979 strings out of 474222
+ 442343 string characters out of 5748734
  1936975 words of memory out of 5000000
  44714 multiletter control sequences out of 15000+600000
  584249 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,123p,388b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,123p,413b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
@@ -1066,7 +1067,7 @@ fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pf
 b></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on pi.pdf (8 pages, 1212433 bytes).
+Output written on What_is_Parallel_Computing?.pdf (8 pages, 1212615 bytes).
 PDF statistics:
  381 PDF objects out of 1000 (max. 8388607)
  295 compressed objects within 3 object streams
